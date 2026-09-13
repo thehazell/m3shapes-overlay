@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>real@example.com</email>
+		<name>Hazel Tersei</name>
+	</maintainer>
+	<longdescription>
+		M3Shapes is a Qt6 QML plugin that provides Material Design 3's
+		expressive shapes (Circle, Heart, Cookie, Burst, etc.) as a
+		MaterialShape QML item, including morph animation between shapes.
+		It is a port of Android's androidx.graphics.shapes library and is
+		used by Quickshell-based desktop shells such as caelestia-dots/shell.
+	</longdescription>
+	<use>
+		<flag name="examples">Build the ShapeGallery example application</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">soramanew/m3shapes</remote-id>
+	</upstream>
+</pkgmetadata>

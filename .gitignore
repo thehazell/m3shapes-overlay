@@ -1,0 +1,4 @@
+*.ebuild~
+.portage_cache/
+metadata/md5-cache/
+metadata/timestamp*
